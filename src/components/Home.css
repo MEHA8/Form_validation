@@ -1,0 +1,60 @@
+/* Home.css */
+
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Deep navy to black gradient */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  opacity: 90%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 	60px 50px; 
+  width: 600px;     
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.container:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px 0;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary {
+  background-color: #c1536b;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #a23d53;
+  transform: scale(1.03);
+}
+
+.mt-4 {
+  margin-top: 20px;
+}
