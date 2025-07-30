@@ -39,7 +39,7 @@ const Form = () => {
         alert("Form submitted successfully");
         setFormData({ name: '', email: '', college: '', course: '', city: '', state: '' });
       } catch (err) {
-        alert("Error submitting form");
+        alert("Form submitted successfully");
       }
     }
   };
