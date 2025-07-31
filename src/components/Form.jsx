@@ -45,7 +45,7 @@ const Form = () => {
   };
 
   return (
-    <div className='form'>
+    <div className='form'> 
         <form onSubmit={handleSubmit} className="border rounded">
           <h3>Enter User Details</h3>
       {["name", "email", "college", "course", "city", "state"].map((field) => (
